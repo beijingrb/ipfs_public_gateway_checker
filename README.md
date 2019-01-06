@@ -4,7 +4,7 @@ This's a Golang version which migrates from:
 
 * [public-gateway-checker](https://github.com/ipfs/public-gateway-checker) An online webpage of JS version
 * [ipfg](https://github.com/JayBrown/Tools/tree/master/ipfg)  A shell cli version
-* [ipfg(Golang)](https://github.com/gingerhot/ipfg)  A Golang version
+* [ipfg](https://github.com/gingerhot/ipfg)  A Golang version
 
 ## Installation
 
@@ -32,7 +32,7 @@ ipfg all    # get all available gateway urls
 ipfg help   # show help message
 ```
 And you can require the gem in your code, just as what I do in the [bin/ipfg](./bin/ipfg).
-There're two methods for you: `get()` and `active_list()`.
+There're two class methods for you: `get()` and `active_list()`.
 
 ## Development
 
