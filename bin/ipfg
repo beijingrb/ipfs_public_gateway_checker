@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require 'ipfs_public_gateway_checker'
+
+def help
+  puts <<USAGE
+ipfg - A command line to get available IPFS public gateway list
+
+Usage: "ipfg"      to get maybe the fastest one of gateways
+       "ipfg all"  to get all available gateways
+USAGE
+end
+
+if ARGV.length == 0
+  puts IpfsPublicGatewayChecker.get
+elsif ARGV.length == 1 && ARGV[0] == 'all'
+  puts IpfsPublicGatewayChecker.active_list
+else
+  help
+end
