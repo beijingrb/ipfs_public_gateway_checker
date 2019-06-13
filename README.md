@@ -1,6 +1,6 @@
 # IPFS Public Gateway Checker
 
-This's a Golang version which migrates from:
+This's a Ruby version which migrates from:
 
 * [public-gateway-checker](https://github.com/ipfs/public-gateway-checker) An online webpage of JS version
 * [ipfg](https://github.com/JayBrown/Tools/tree/master/ipfg)  A shell cli version
